@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8E554FDC-86AF-4977-8EBB-BE0470837BB4}</ProjectGuid>
+    <ProjectGuid>{5FB56350-9614-427E-80A7-FA2D85E5BE63}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CProgramPowerUp</RootNamespace>
+    <RootNamespace>Section3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>Section1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.c" />
+    <ClCompile Include="11.c" />
+    <ClCompile Include="9.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
