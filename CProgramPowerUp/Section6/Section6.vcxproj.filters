@@ -15,16 +15,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9제어문연습.c">
+    <ClCompile Include="19.함수의_기본.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11반복문_익숙해지기.c">
+    <ClCompile Include="20.리턴_만으로_값을_반환X.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="10Continue연습.c">
+    <ClCompile Include="21.함수에1,2차원_배열인자로전달.c">
       <Filter>Source Files</Filter>
-    </None>
+    </ClCompile>
+    <ClCompile Include="22.함수와문자열배열.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="24strtok함수약식만들기.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23.문자열_처리함수만들기.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

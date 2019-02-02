@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9제어문연습.c">
+    <ClCompile Include="13while문과for문중첩.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11반복문_익숙해지기.c">
+    <ClCompile Include="14버블알고리즘.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="10Continue연습.c">
+    <None Include="12For문_중첩연습.c">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9제어문연습.c">
+    <ClCompile Include="15문자의_유형_분류1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11반복문_익숙해지기.c">
+    <ClCompile Include="18%40%40문자열_처리_함수_사용.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="10Continue연습.c">
+    <None Include="16문자의_유형_분류2.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="17%40%40문자열_처리_함수_사용2.c">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

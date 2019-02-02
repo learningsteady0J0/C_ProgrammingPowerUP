@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5.c">
+    <ClCompile Include="5기본_사칙연산자_활용.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="6.c">
+    <ClCompile Include="6명시적_형_변환,묵시적_형_변환.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="7.c">
+    <ClCompile Include="7조건연산자 활용.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="8.c">
+    <ClCompile Include="8나머지_연산자.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

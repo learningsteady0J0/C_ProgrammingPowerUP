@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{A83690F2-2D2F-4342-AB6D-2E320501E2FA}</ProjectGuid>
+    <ProjectGuid>{B1352571-A924-4348-9DBD-9C7614D38962}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Section2</RootNamespace>
+    <RootNamespace>Section5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="8나머지_연산자.c" />
-    <ClCompile Include="5기본_사칙연산자_활용.c" />
-    <ClCompile Include="6명시적_형_변환,묵시적_형_변환.c" />
-    <ClCompile Include="7조건연산자 활용.c" />
+    <ClCompile Include="15문자의_유형_분류1.c" />
+    <ClCompile Include="18%40%40문자열_처리_함수_사용.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="16문자의_유형_분류2.c" />
+    <None Include="17%40%40문자열_처리_함수_사용2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

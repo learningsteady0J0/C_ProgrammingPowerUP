@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="11.c" />
-    <ClCompile Include="9.c" />
+    <ClCompile Include="11반복문_익숙해지기.c" />
+    <ClCompile Include="9제어문연습.c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="10.c" />
+    <None Include="10Continue연습.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

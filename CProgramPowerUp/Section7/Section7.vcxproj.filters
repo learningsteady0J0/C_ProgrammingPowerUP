@@ -15,16 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9제어문연습.c">
+    <ClCompile Include="26.문자열의길이는그때그때다름.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11반복문_익숙해지기.c">
+    <ClCompile Include="25.프로그램실행중배열결정하기.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="10Continue연습.c">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
