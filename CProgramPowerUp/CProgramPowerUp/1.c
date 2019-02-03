@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(void) {
 	int total = 0;
@@ -18,7 +18,7 @@ int main(void) {
 	return 0;
 }
 
-/*	1번 문제 scanf 함수도 서식을 정할 수 있음!
+	1번 문제 scanf 함수도 서식을 정할 수 있음!
 
 scanf("%c,%d,%lf,%s", &c, &n, &f, str);
 

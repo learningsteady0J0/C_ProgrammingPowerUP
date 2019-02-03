@@ -15,17 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="27.둘이상의데이터묶을상황_구조체사용X.c">
+    <ClCompile Include="stringOp1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="28.둘이상의데이터묶을상황_구조체사용O.c">
+    <ClCompile Include="stringOp2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="30.다양한기준으로도서정보정렬.c">
+    <ClCompile Include="1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="29.저장시도서명순으로정렬저장.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

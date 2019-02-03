@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{CEEEF141-7D0A-42A2-B68F-7ECE4288073A}</ProjectGuid>
+    <ProjectGuid>{DEF77DDE-83EF-4F07-86C4-DF15BF09F131}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Section8</RootNamespace>
+    <RootNamespace>Section9</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="27.둘이상의데이터묶을상황_구조체사용X.c" />
-    <ClCompile Include="28.둘이상의데이터묶을상황_구조체사용O.c" />
-    <ClCompile Include="29.저장시도서명순으로정렬저장.c" />
-    <ClCompile Include="30.다양한기준으로도서정보정렬.c" />
+    <ClCompile Include="1.c" />
+    <ClCompile Include="stringOp1.c" />
+    <ClCompile Include="stringOp2.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

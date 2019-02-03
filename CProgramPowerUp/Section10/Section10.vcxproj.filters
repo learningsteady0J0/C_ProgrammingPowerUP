@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="27.둘이상의데이터묶을상황_구조체사용X.c">
+    <ClCompile Include="36.파일_문자입출력.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="28.둘이상의데이터묶을상황_구조체사용O.c">
+    <ClCompile Include="38.파일문자열입출력.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="30.다양한기준으로도서정보정렬.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="29.저장시도서명순으로정렬저장.c">
+    <ClCompile Include="37.파일숫자입출력.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
