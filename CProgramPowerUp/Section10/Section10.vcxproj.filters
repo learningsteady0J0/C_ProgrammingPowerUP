@@ -18,10 +18,22 @@
     <ClCompile Include="36.파일_문자입출력.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="37.파일숫자입출력.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="38.파일문자열입출력.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="37.파일숫자입출력.c">
+    <ClCompile Include="40.텍스트,바이너리파일에대한오해.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="39.숫자문자문자열동시입출력.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="40-1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="40-2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

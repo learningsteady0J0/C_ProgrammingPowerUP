@@ -22,6 +22,10 @@
     <ClCompile Include="36.파일_문자입출력.c" />
     <ClCompile Include="37.파일숫자입출력.c" />
     <ClCompile Include="38.파일문자열입출력.c" />
+    <ClCompile Include="39.숫자문자문자열동시입출력.c" />
+    <ClCompile Include="40-1.c" />
+    <ClCompile Include="40-2.c" />
+    <ClCompile Include="40.텍스트,바이너리파일에대한오해.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
