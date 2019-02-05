@@ -1,10 +1,10 @@
 /*#include <stdio.h>
 #include <string.h>
 #define STR_SIZE 100
-//fgets´Â \nµµ Æ÷ÇÔµÈ´Ù.  ±×¸®°í fputs ÇÔ¼ö´Â °³ÇàÀ» ±âÁØÀ¸·Î ÀĞ±â¶§¹®¿¡ ÀÔ·ÂÇÒ¶§ °³ÇàÀÌ ¾øÀÌ ÀÔ·ÂµÇ¸é ±×µÚ±îÁö ¸ğµÎ Æ÷ÇÔÇØ¼­ fputsÇÔ¼ö·Î ÀĞÈù´Ù.
-//feof ÇÔ¼ö´Â ÆÄÀÏÀÇ ³¡(EOF)¿¡ µµ´ŞÇßÀ» ¶§ 0ÀÌ ¾Æ´Ñ °ªÀ» ¹İÈ¯.. ¿©±â¼­ ÆÄÀÏÀÇ ³¡Àº ¸¶Áö¸·µ¥ÀÌÅÍÀÇ À§Ä¡°¡¾Æ´Ñ. ¸¶Áö¸· µ¥ÀÌÅÍ ÈÄ
-// ÇÑ ¹ø´õ µ¥ÀÌÅÍ¸¦ ÀĞÀ»·Á°í ½ÃµµÇÒ ½Ã EOF¸¦ ¹İÈ¯ÇÔ.. µû¶ó¼­ ¿¹Á¦¿¡¼­ freadÇÔ¼öµÚ¿¡ feofÇÔ¼ö¸¦ ³ÖÀ½.
-//sprintfÇÔ¼öÀÇ È°¿ëÀ» Àß »ı°¢ÇÏÀÚ.
+//fgetsëŠ” \në„ í¬í•¨ëœë‹¤.  ê·¸ë¦¬ê³  fgets í•¨ìˆ˜ëŠ” ê°œí–‰ì„ ê¸°ì¤€ìœ¼ë¡œ ì½ê¸°ë•Œë¬¸ì— ì…ë ¥í• ë•Œ ê°œí–‰ì´ ì—†ì´ ì…ë ¥ë˜ë©´ ê·¸ë’¤ê¹Œì§€ ëª¨ë‘ í¬í•¨í•´ì„œ fgetsí•¨ìˆ˜ë¡œ ì½íŒë‹¤.
+//feof í•¨ìˆ˜ëŠ” íŒŒì¼ì˜ ë(EOF)ì— ë„ë‹¬í–ˆì„ ë•Œ 0ì´ ì•„ë‹Œ ê°’ì„ ë°˜í™˜.. ì—¬ê¸°ì„œ íŒŒì¼ì˜ ëì€ ë§ˆì§€ë§‰ë°ì´í„°ì˜ ìœ„ì¹˜ê°€ì•„ë‹Œ. ë§ˆì§€ë§‰ ë°ì´í„° í›„
+// í•œ ë²ˆë” ë°ì´í„°ë¥¼ ì½ì„ë ¤ê³  ì‹œë„í•  ì‹œ EOFë¥¼ ë°˜í™˜í•¨.. ë”°ë¼ì„œ ì˜ˆì œì—ì„œ freadí•¨ìˆ˜ë’¤ì— feofí•¨ìˆ˜ë¥¼ ë„£ìŒ.
+//sprintfí•¨ìˆ˜ì˜ í™œìš©ì„ ì˜ ìƒê°í•˜ì.
 int main(void)
 {	
 	int day,day2;
@@ -17,15 +17,15 @@ int main(void)
 
 	if (fp1 == NULL)
 	{
-		puts("ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê¾Ò½À´Ï´Ù.");
+		puts("íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
 		return -1;
 	}
 
 	while (1) {
 
-		fputs("³¯Â¥ : ", stdout);
+		fputs("ë‚ ì§œ : ", stdout);
 		end = scanf("%d", &day);
-		getchar(); // \n ¾ø¾Ö±â
+		getchar(); // \n ì—†ì• ê¸°
 
 		if (end == EOF)
 		{
@@ -34,21 +34,21 @@ int main(void)
 
 		fwrite(&day, sizeof(int), 1, fp1);
 
-		fputs("Áö¿ª : ", stdout);
+		fputs("ì§€ì—­ : ", stdout);
 		fgets(location, sizeof(location), stdin);
 		fputs(location, fp1);
 
-		fputs("¿ÀÀü(A)/¿ÀÈÄ(P) : ", stdout);
+		fputs("ì˜¤ì „(A)/ì˜¤í›„(P) : ", stdout);
 		time = fgetc(stdin);
 		fputc(time, fp1);
 		getchar();
 
-		fputs("³¯¾¾ : ", stdout);
+		fputs("ë‚ ì”¨ : ", stdout);
 		fgets(weather, sizeof(weather), stdin);
 		fputs(weather, fp1);
 	}
 
-	puts("ÆÄÀÏ ÀÔ·Â ¿Ï·á");
+	puts("íŒŒì¼ ì…ë ¥ ì™„ë£Œ");
 
 	fclose(fp1);
 
@@ -56,7 +56,7 @@ int main(void)
 
 	if (fp2 == NULL)
 	{
-		puts("ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê¾Ò½À´Ï´Ù.");
+		puts("íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
 		return -1;
 	}
 
@@ -71,21 +71,21 @@ int main(void)
 		time = fgetc(fp2);
 		fgets(weather, sizeof(weather), fp2);
 
-		printf("³¯Â¥ : %d\n", day);
-		printf("Áö¿ª : %s\n", location);
-		printf("¿ÀÀü(A)/¿ÀÈÄ(P) : %c\n", time);
-		printf("³¯¾¾: %s\n", weather);
+		printf("ë‚ ì§œ : %d\n", day);
+		printf("ì§€ì—­ : %s\n", location);
+		printf("ì˜¤ì „(A)/ì˜¤í›„(P) : %c\n", time);
+		printf("ë‚ ì”¨: %s\n", weather);
 	}
 	fclose(fp2);
 
 	fp2 = fopen("practice.dat", "r");
 
-	fputs("°Ë»öÇÒ ³¯Â¥ ¹× Áö¿ª Á¤º¸ ÀÔ·Â: ", stdout);
+	fputs("ê²€ìƒ‰í•  ë‚ ì§œ ë° ì§€ì—­ ì •ë³´ ì…ë ¥: ", stdout);
 	
 	scanf("%d  %s  %c", &day2, location2, &time2);
 	///len = strlen(location2);
 	location2[len] = '\n';
-	location2[len+1] = '\0'; ³»°¡ »ı°¢ÇÑ ¹æ»è.///
+	location2[len+1] = '\0'; ë‚´ê°€ ìƒê°í•œ ë°©ì‚­.///
 
 sprintf(location2, "%s\n", location2);
 
@@ -94,7 +94,7 @@ while (1)
 	fread(&day, sizeof(int), 1, fp2);
 	if (feof(fp2) != 0)
 	{
-		puts("µ¥ÀÌÅÍ°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		puts("ë°ì´í„°ê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		break;
 	}
 
@@ -103,16 +103,16 @@ while (1)
 	fgets(weather, sizeof(weather), fp2);
 
 	if (day == day2 &&
-		!strcmp(location, location2) &&   //³ª´Â strcpm»ı°¢À» ¸øÇÏ°í location == location2 ·Î »ğÁúÇÔ.
+		!strcmp(location, location2) &&   //ë‚˜ëŠ” strcpmìƒê°ì„ ëª»í•˜ê³  location == location2 ë¡œ ì‚½ì§ˆí•¨.
 		time == time2)
 	{
 
-		printf("³¯Â¥ : %d\n", day);
-		printf("Áö¿ª : %s\n", location);
-		printf("¿ÀÀü(A)/¿ÀÈÄ(P) : %c\n", time);
-		printf("³¯¾¾: %s\n", weather);
+		printf("ë‚ ì§œ : %d\n", day);
+		printf("ì§€ì—­ : %s\n", location);
+		printf("ì˜¤ì „(A)/ì˜¤í›„(P) : %c\n", time);
+		printf("ë‚ ì”¨: %s\n", weather);
 
-		puts("°Ë»öÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		puts("ê²€ìƒ‰ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		break;
 
 	}
